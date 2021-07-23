@@ -6,7 +6,7 @@ namespace ProcesoAcademico
     {
         static void Main(string[] args)
         {
-           
+
         }
     }
 }
