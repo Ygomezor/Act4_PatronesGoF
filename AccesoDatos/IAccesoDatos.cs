@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AccesoDatos
 {
-    interface IAccesoDatos<TEntity> where TEntity : class
+    public interface IAccesoDatos<TEntity> where TEntity : class
     {
         void Crear(TEntity Entidad);
         void Editar(TEntity Entidad);

@@ -6,10 +6,6 @@ namespace Negocio
 {
     public class RepositorioEstudiante<TEntity> : IRepositorio<TEntity> where TEntity : class
     {
-        public RepositorioEstudiante()
-        {
-
-        }
         public void Crear(TEntity Entidad)
         {
             Singleton<TEntity>.Instancia.Crear(Entidad);

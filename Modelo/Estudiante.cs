@@ -8,5 +8,6 @@ namespace Modelo
     {
         public string Codigo { get; set; }
         public bool EstaMatriculado { get; set; }
+        public List<Materia> Materias { get; set; }
     }
 }

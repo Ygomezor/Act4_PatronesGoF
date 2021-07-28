@@ -10,11 +10,13 @@ namespace ProcesoAcademico
         {
             Estudiante estudiante = LlenarDatosEstudiante();
             RepositorioEstudiante<Estudiante> repositorio = new RepositorioEstudiante<Estudiante>();
-            if (repositorio.ObtenerPorId(estudiante.Id)==null)
+            if (repositorio.ObtenerPorId(estudiante.Id) == null)
             {
                 repositorio.Crear(estudiante);
             }
-            repositorio.Matricular(estudiante);
+            int.TryParse(Console.ReadLine(), out int cantidadMarias);
+
+            repositorio.(estudiante);
 
             Console.ReadKey();
         }
